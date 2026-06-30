@@ -1,0 +1,44 @@
+{
+  "name": "facebook-skills",
+  "description": "5 Claude Code and Codex skills for Facebook Pages marketing: short punchy Page posts that favor the under-80-character engagement sweet spot, AI-tell humanizer with pre-publish audit, high-share post hook extraction, comment-reply drafting, and weekly Page content planning. Publora is the default publish layer for Page posts.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Serge Bulaev",
+    "url": "https://github.com/sergebulaev"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/sergebulaev/facebook-skills",
+  "repository": "https://github.com/sergebulaev/facebook-skills",
+  "keywords": [
+    "facebook",
+    "facebook pages",
+    "marketing",
+    "social-media",
+    "content",
+    "claude-skills",
+    "codex-skills",
+    "viral",
+    "engagement",
+    "page-posts"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Facebook Pages Skills",
+    "shortDescription": "Facebook Pages marketing skills for Claude Code and Codex.",
+    "longDescription": "A bundle of 5 Facebook Pages marketing skills for Claude Code and Codex: short punchy Page-post writing, humanizing, high-share hook extraction, comment-reply drafting, and weekly Page content planning.",
+    "developerName": "Serge Bulaev",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/sergebulaev/facebook-skills",
+    "defaultPrompt": [
+      "Write a short punchy Facebook Page post from my notes.",
+      "Draft replies to the comments on my latest Page post.",
+      "Plan a week of Facebook Page content."
+    ],
+    "brandColor": "#1877F2"
+  }
+}

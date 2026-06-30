@@ -1,0 +1,39 @@
+{
+  "name": "facebook-skills",
+  "owner": {
+    "name": "Serge Bulaev",
+    "url": "https://github.com/sergebulaev"
+  },
+  "metadata": {
+    "description": "Claude Code and Codex skills for Facebook Pages growth: short punchy Page posts that favor the under-80-character engagement sweet spot, AI-tell humanizer with a bundled pre-publish audit, high-share post hook extraction, comment-reply drafting, and weekly Page content planning. Page posts publish through the Publora API."
+  },
+  "plugins": [
+    {
+      "name": "facebook-skills",
+      "source": "./",
+      "description": "Bundle of 5 Facebook Pages marketing skills for Claude Code and Codex with Facebook-native high-share hook formulas, short punchy and long story Page-post writing, a unified humanizer (rewrite plus `--mode audit` pre-publish check), high-share post hook extraction, comment-reply drafting, and a weekly Page content planner. Page posts ship via Publora.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Serge Bulaev",
+        "url": "https://github.com/sergebulaev"
+      },
+      "homepage": "https://github.com/sergebulaev/facebook-skills",
+      "license": "MIT",
+      "keywords": [
+        "facebook",
+        "facebook-pages",
+        "marketing",
+        "social-media",
+        "content-creation",
+        "claude-skills",
+        "codex-skills",
+        "anthropic",
+        "ai-agents",
+        "page-management",
+        "engagement",
+        "viral-content"
+      ],
+      "category": "productivity"
+    }
+  ]
+}
