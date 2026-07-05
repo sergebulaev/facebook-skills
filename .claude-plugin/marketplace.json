@@ -12,7 +12,7 @@
       "name": "facebook-skills",
       "source": "./",
       "description": "Bundle of 5 Facebook Pages marketing skills for Claude Code and Codex with Facebook-native high-share hook formulas, short punchy and long story Page-post writing, a unified humanizer (rewrite plus `--mode audit` pre-publish check), high-share post hook extraction, comment-reply drafting, and a weekly Page content planner. Page posts ship via Publora.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Serge Bulaev",
         "url": "https://github.com/sergebulaev"
