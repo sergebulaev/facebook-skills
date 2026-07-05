@@ -4,6 +4,20 @@ Synthesized from Meta's public statements on the Facebook feed ranking, the
 "meaningful social interactions" (MSI) framework, and observed Page creator data.
 Numbers marked "reported" are community-measured, not officially confirmed.
 
+## Contents
+
+- Signal weights (relative reach impact)
+- The short-post engagement boost
+- The first 60-90 minutes
+- Reach suppressors (avoid)
+- Reach amplifiers
+- Character and media limits
+- Post types
+- Shares are the underrated lever
+- Timing
+- Comments are publishing, not just engagement
+- Pre-publish checklist
+
 ## Signal weights (relative reach impact)
 
 Facebook's feed ranker scores predicted engagement, and the engagement types are

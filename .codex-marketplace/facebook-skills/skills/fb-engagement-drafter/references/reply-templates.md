@@ -5,6 +5,15 @@ Page voice, stays short, and aims to keep the conversation alive (replies in the
 first hour lift reach). Never auto-posted: Publora has no Facebook comment
 endpoint, so these come back as copy-paste blocks.
 
+## Contents
+
+- C1 - Answer-the-Question
+- C2 - Thank-Plus-Add-Value
+- C3 - Handle-the-Complaint
+- C4 - Turn-It-Into-a-Share
+- C5 - Invite-the-Spotlight
+- General reply rules
+
 ## C1 - Answer-the-Question
 
 They asked something. Answer it plainly, add one real detail, stop.

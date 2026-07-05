@@ -20,6 +20,23 @@ single paragraph). FB8-FB10 are **story / longer-post** shapes for when the
 content needs the room. Lead with the short ones; reach for a long one only when
 the story earns it.
 
+## Contents
+
+- FB1 - One-Line Opinion
+- FB2 - The Tiny Number
+- FB3 - Ask-the-Page Question
+- FB4 - This-or-That
+- FB5 - Relatable One-Liner
+- FB6 - Behind-the-Scenes Moment
+- FB7 - Useful Tip
+- FB8 - Story Post with a Turn
+- FB9 - Announcement with Stakes
+- FB10 - Community Spotlight
+- Engagement-goal split
+- Short post vs story post: pick the container first
+- Hook micro-rules (Facebook-specific)
+- Never do
+
 ---
 
 ## FB1 - One-Line Opinion
