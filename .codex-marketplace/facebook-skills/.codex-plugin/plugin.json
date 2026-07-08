@@ -1,7 +1,7 @@
 {
   "name": "facebook-skills",
   "description": "5 Claude Code and Codex skills for Facebook Pages marketing: short punchy Page posts that favor the under-80-character engagement sweet spot, AI-tell humanizer with pre-publish audit, high-share post hook extraction, comment-reply drafting, and weekly Page content planning. Publora is the default publish layer for Page posts.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Serge Bulaev",
     "url": "https://github.com/sergebulaev"
