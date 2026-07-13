@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/PRs-welcome-F59E0B.svg" alt="PRs Welcome">
 </p>
 
-5 skills that help Claude Code and Codex write, audit, and plan posts for your Facebook Pages in your voice. They draft content, lean into the under-80-character engagement sweet spot, strip AI tells, and wait for your approval before anything gets published. No coding required.
+6 skills that help Claude Code and Codex write, audit, and plan posts for your Facebook Pages in your voice. They draft content, lean into the under-80-character engagement sweet spot, strip AI tells, and wait for your approval before anything gets published. No coding required.
 
 ## Install
 
@@ -124,11 +124,12 @@ Once installed, just ask Claude Code or Codex for help with your Facebook Page. 
 
 Every skill shows you a draft first and waits for your OK. Nothing gets posted without your approval.
 
-## The 5 skills
+## The 6 skills
 
 | Skill | What it does |
 |---|---|
 | **Post Writer** | Drafts a short punchy Page post (favoring the under-80-char engagement sweet spot) or a longer story post, using a 2026 Facebook hook formula picked by goal: shares, comments, or reactions. Runs the humanizer pass before showing you the draft |
+| **Repurposer** | Turns a LinkedIn post, X thread, blog, or newsletter into a native Page post: warms the tone, leads with a standalone claim above the "See more" fold, moves links to the first comment, and strips off-platform artifacts. Transforms, never copy-pastes |
 | **Humanizer** | Strips em dashes, AI vocabulary ("leverage", "delve", "harness"), "We are thrilled to announce" openers, rule-of-three lists, and corporate auto-pilot. Bundles a `--mode audit` pre-publish check (under-80 sweet spot, hook, engagement bait, hashtag and emoji limits) |
 | **Hook Extractor** | Reverse-engineers the hook from any high-share Page post. Maps it to one of the 10 Facebook formulas and returns a blank template you can fill |
 | **Engagement Drafter** | Drafts replies to comments on your Page's posts in your voice. Publora has no Facebook comment endpoint, so the drafts come back as a copy-paste block to post in Facebook or Meta Business Suite |
