@@ -5,7 +5,7 @@ description: Plan, draft, audit, and publish posts for a Facebook Page. Use when
 
 # Facebook Pages Marketing Skills
 
-A bundle of 6 focused skills for Facebook Page content ops in 2026. Each skill is
+A bundle of 7 focused skills for Facebook Page content ops in 2026. Each skill is
 single-purpose, follows the draft then approval then publish pattern, and uses
 the [Publora API](https://publora.com) for posting to Facebook Pages.
 
@@ -17,6 +17,7 @@ the [Publora API](https://publora.com) for posting to Facebook Pages.
 - **Reverse-engineering the hook from a high-share Page post** -> use `fb-hook-extractor`
 - **Drafting replies to comments on your Page's posts** -> use `fb-engagement-drafter`
 - **Planning a week of Facebook Page content** -> use `fb-content-planner`
+- **Auditing and rewriting the Page itself (name, cover, About, CTA button, pinned post)** -> use `fb-page-optimizer`
 
 ## Core pattern
 
