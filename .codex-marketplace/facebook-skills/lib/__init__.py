@@ -12,6 +12,7 @@ from .backend_selector import (
     manual_mode_message,
     publish,
 )
+from .apify_client import ApifyClient, ApifyError, ApifyAuthError
 
 __all__ = [
     "parse_facebook_url",
@@ -21,4 +22,7 @@ __all__ = [
     "active_backend",
     "manual_mode_message",
     "publish",
+    "ApifyClient",
+    "ApifyError",
+    "ApifyAuthError",
 ]

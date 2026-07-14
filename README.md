@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/PRs-welcome-F59E0B.svg" alt="PRs Welcome">
 </p>
 
-7 skills that help Claude Code and Codex write, audit, and plan posts for your Facebook Pages in your voice. They draft content, lean into the under-80-character engagement sweet spot, strip AI tells, and wait for your approval before anything gets published. No coding required.
+8 skills that help Claude Code and Codex write, audit, and plan posts for your Facebook Pages in your voice. They draft content, lean into the under-80-character engagement sweet spot, strip AI tells, and wait for your approval before anything gets published. No coding required.
 
 ## Install
 
@@ -124,7 +124,7 @@ Once installed, just ask Claude Code or Codex for help with your Facebook Page. 
 
 Every skill shows you a draft first and waits for your OK. Nothing gets posted without your approval.
 
-## The 7 skills
+## The 8 skills
 
 | Skill | What it does |
 |---|---|
@@ -135,6 +135,7 @@ Every skill shows you a draft first and waits for your OK. Nothing gets posted w
 | **Engagement Drafter** | Drafts replies to comments on your Page's posts in your voice. Publora has no Facebook comment endpoint, so the drafts come back as a copy-paste block to post in Facebook or Meta Business Suite |
 | **Content Planner** | Creates a weekly Page plan with a short-to-story post mix, per-day hooks, posting times, a share-optimized goal balance, and a daily comment-reply target |
 | **Page Optimizer** | Audits and rewrites the Page itself for 2026: Page name, username and vanity URL, profile picture and cover photo, Intro/About and category, the CTA button matched to your goal (Shop, Book, Sign Up, Contact), pinned post, tabs order, and contact/link fields. Turns a default Page into one that converts a visitor into a follower or a lead |
+| **Audience Insights** | Reads a Page and its audience from real data (via Apify, no login): pulls any Page's public stats (followers, likes, category, intro) for you or a competitor, and pulls the commenters on a public post. Facebook hides who reacted or liked, so commenters are the engagement signal |
 
 ## How posting works on a Facebook Page
 

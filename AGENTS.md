@@ -40,8 +40,8 @@ making changes. Conventions here are mandatory unless the user asks otherwise.
 
 ## Skill bundle invariants
 
-- **Exactly 7 skills.** Adding requires merging or splitting elsewhere to stay at
-  7. The number is announced in plugin manifests and the README.
+- **Exactly 8 skills.** Adding requires merging or splitting elsewhere to stay at
+  8. The number is announced in plugin manifests and the README.
 - **Frontmatter `description:` target <= 400 chars** (some bundle-heavy skills
   land slightly higher when their scope is genuinely broad; keep under 510).
   Always include a "Not for X (use Y)" disambiguation sentinel when a skill
@@ -75,9 +75,13 @@ making changes. Conventions here are mandatory unless the user asks otherwise.
   ids), header `x-publora-key`.
 - **Facebook has no comment/reaction endpoint on Publora**, and `create-post`
   only creates posts. `kind="comment"` always routes to a manual copy-paste block.
-- **No read layer ships by default.** `fb-hook-extractor` and
-  `fb-engagement-drafter` ask the user to paste post and comment text. Any future
-  Page-read actor stays gated behind `APIFY_TOKEN` with a paste fallback.
+- **Read layer (Apify):** `lib/apify_client.py`. Two verified methods:
+  `fetch_page_stats(page_url)` via `apify/facebook-pages-scraper` and
+  `fetch_post_commenters(post_url, max_comments)` via `danek/facebook-comments-ppr`
+  (256-entry LRU, 6h TTL, opt-out via `force_refresh=True`). Gated behind
+  `APIFY_TOKEN` with a paste fallback. Facebook hides the reactor/liker roster, so
+  the read layer surfaces Page stats + commenters, never a liker list.
+  `fb-hook-extractor` and `fb-engagement-drafter` still accept pasted text.
 - Don't name competing third-party schedulers in committed files.
 
 ## Codex marketplace package
@@ -103,7 +107,7 @@ Run from repo root:
 ```bash
 python3 -c "from lib import publish, parse_facebook_url, PubloraClient; print('OK')"
 python3 scripts/sync_codex_marketplace.py
-ls skills/ | wc -l        # must equal 7
+ls skills/ | wc -l        # must equal 8
 python3 -m json.tool .codex-plugin/plugin.json >/dev/null
 python3 -m json.tool .agents/plugins/marketplace.json >/dev/null
 python3 -m json.tool .claude-plugin/plugin.json >/dev/null
