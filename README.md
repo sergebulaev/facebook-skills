@@ -14,7 +14,18 @@
   <img src="https://img.shields.io/badge/PRs-welcome-F59E0B.svg" alt="PRs Welcome">
 </p>
 
-8 skills that help Claude Code and Codex write, audit, and plan posts for your Facebook Pages in your voice. They draft content, lean into the under-80-character engagement sweet spot, strip AI tells, and wait for your approval before anything gets published. No coding required.
+> **Part of the [linkedin-skills](https://github.com/sergebulaev/linkedin-skills) family (400+ stars).** Same voice engine and approve-before-publish flow, now for Facebook. Also available for [Instagram](https://github.com/sergebulaev/instagram-skills) · [X](https://github.com/sergebulaev/x-skills) · [YouTube](https://github.com/sergebulaev/youtube-skills) · [TikTok](https://github.com/sergebulaev/tiktok-skills) · [Threads](https://github.com/sergebulaev/threads-skills).
+
+**8 skills that turn Claude Code and Codex into your Facebook Page content team.** They write and audit Page posts in your voice, lean into the under-80-character engagement sweet spot, read the comments on your posts, and plan a week of content. Every draft gets the AI tells stripped and waits for your approval before anything publishes. No coding required.
+
+Once installed, just ask Claude Code or Codex things like:
+
+- "Write a Facebook Page post about [topic]"
+- "Plan a week of Page content for my [business]"
+- "Read the comments on this post (reads real data via Apify)"
+- "Rewrite this so it doesn't sound like AI"
+
+The right skill activates automatically. Then you review and approve.
 
 ## Install
 
