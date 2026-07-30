@@ -46,6 +46,8 @@ shapes (lead here). FB8-FB10 are longer story shapes (use on purpose).
 
 ## Steps
 
+**Voice profile first (all drafts).** If `../../references/voice-profile.md` has `filled: yes`, load it and match the user's voice fingerprint, hard rules, and CTA/link style throughout. If it is not filled, mention once that `fb-humanizer --mode profile` can learn their voice from a few posts, then proceed with the generic voice rules.
+
 1. **Gather inputs.** Topic, angle, any rough draft, target audience (B2C / B2B /
    local / community), and the goal (shares / comments / reactions).
 2. **Pick the container.** Default to a short post (aim under 80 chars). If it is
