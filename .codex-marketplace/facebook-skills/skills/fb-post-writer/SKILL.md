@@ -105,6 +105,13 @@ rules:
 - `../../references/algorithm-heuristics.md` - 2026 Facebook Page ranking rules (signals, the under-80 boost, timing, limits)
 - `references/short-post-checklist.md` - the per-post scrub and the under-80 fit check
 
+## Optional illustration
+
+Offer a generated image when a visual would lift reach. Draft a prompt and call
+`lib.illustrate(prompt, kind="wide")`, pulling brand handle/color from Voice &
+Brand Profile section 6 for a pixel-exact overlay. Show the returned `url` + `cost`,
+then attach on publish via `media_urls=[url]`. Full workflow (incl. quote-cards):
+`../fb-humanizer/sub-skills/illustration.md`. No Pixfaro key -> it drafts the prompt for you to generate manually.
 ## Related skills
 
 - `fb-humanizer` - aggressive AI-tell scrubber, plus `--mode audit` for review

@@ -6,11 +6,14 @@ remain importable from their submodules but are not re-exported here.
 """
 from .url_parser import parse_facebook_url
 from .publora_client import PubloraClient, PubloraError
+from .pixfaro_client import PixfaroClient, PixfaroError
 from .approval import render_approval_card
 from .backend_selector import (
+    image_backend,
     active_backend,
     manual_mode_message,
     publish,
+    illustrate,
 )
 from .apify_client import ApifyClient, ApifyError, ApifyAuthError
 
@@ -25,4 +28,8 @@ __all__ = [
     "ApifyClient",
     "ApifyError",
     "ApifyAuthError",
+    "PixfaroClient",
+    "PixfaroError",
+    "image_backend",
+    "illustrate",
 ]
