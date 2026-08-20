@@ -14,6 +14,8 @@ from .backend_selector import (
     manual_mode_message,
     publish,
     illustrate,
+    refine,
+    available_models,
 )
 from .apify_client import ApifyClient, ApifyError, ApifyAuthError
 
@@ -32,4 +34,6 @@ __all__ = [
     "PixfaroError",
     "image_backend",
     "illustrate",
+    "refine",
+    "available_models",
 ]
