@@ -166,14 +166,14 @@ class ApifyClient:
         """
         ck = f"page:{page_url}"
         if not force_refresh and (c := self._cget(ck)) is not None:
-            return c
+            return c or None
         rows = self._run(PAGES_ACTOR, {"startUrls": [{"url": page_url}]})
         out = None
         for row in rows:
             if isinstance(row, dict) and (row.get("title") or row.get("pageName")):
                 out = _page_stats(row)
                 break
-        self._cput(ck, out)
+        self._cput(ck, out if out is not None else False)
         return out
 
     def fetch_post_commenters(self, post_url: str, max_comments: int = 25,
