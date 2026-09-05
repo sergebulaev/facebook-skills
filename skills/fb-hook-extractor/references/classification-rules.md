@@ -63,6 +63,6 @@ Flag, do not copy:
 ## Output: the blank template
 
 Reproduce the winning formula's skeleton from
-`../../references/hook-formulas.md`, swapping the original's specifics for
+`../../../references/hook-formulas.md`, swapping the original's specifics for
 `{slot}` markers matched to the user's topic. Keep the mechanic intact (the
 under-80 length for short posts, the open question for FB3, the turn for FB8).
