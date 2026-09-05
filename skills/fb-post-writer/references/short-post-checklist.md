@@ -13,11 +13,24 @@ Run every Page-post draft through this before showing the approval card.
 
 ## Voice scrub
 
-- [ ] No em dashes (`—`), en dashes (`–`), or double dashes (`--`). Use `..`.
-- [ ] No AI vocab: leverage, utilize, streamline, harness, delve, foster,
-      fundamentally, essentially, game-changer, deep dive.
+- [ ] Em dashes (`—`) at or under about one per 100 words (a short post rarely
+      needs one; at most one). Replace only the excess, with a comma, colon or
+      parentheses, never a period. No en dashes (`–`) between clauses, no
+      double dashes (`--`).
+- [ ] No cluster of 2026 AI vocab (3+ markers in one paragraph = rewrite it;
+      one is fine): significant, crucial, notably, comprehensive, insights,
+      robust, leverage, foster, landscape, nuanced, streamline, elevate,
+      empower, fundamentally, essentially, ultimately; plus "-ing" clause
+      openers and "the X-tion of" nominalisations.
 - [ ] No "We are thrilled / excited / delighted to announce" opener.
-- [ ] No rule-of-three triplet unless each item is concrete.
+- [ ] No reveal bridge ("The result?", "Here's what", "Stop X, start Y") and
+      no "It's not X, it's Y".
+- [ ] No sincerity announcement ("we'll be honest with you", "real talk") and
+      no hedge the author did not write.
+- [ ] No staccato stack ("Short. Punchy. Done.", "No X. No Y. Just Z."), no
+      one-word line for drama. A short post is one line; never chop it.
+- [ ] At most one natural rule-of-three with concrete items; no stacked or
+      hollow triads.
 - [ ] Names capitalized (Stripe, Canva, Shopify).
 
 ## Substance

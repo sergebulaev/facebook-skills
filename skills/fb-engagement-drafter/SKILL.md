@@ -57,8 +57,11 @@ the target link) and the Page's voice samples.
 4. **Draft 1-3 variants per comment.** Keep them short and human. Answer
    questions plainly with one real detail. For complaints, acknowledge first,
    never get defensive, offer a concrete next step.
-5. **Humanizer pass.** Strip em dashes, AI vocab, canned "Thank you for your
-   feedback!" corporate filler. Keep the Page voice.
+5. **Humanizer pass.** Scrub 2026 AI vocab by density, cap em dashes (a
+   reply is short, so at most one, never swapped for a period), strip canned
+   "Thank you for your feedback!" corporate filler and sincerity openers
+   ("we'll be honest"). Leave the rhythm alone. Keep the Page voice.
+   Canonical rules: `fb-humanizer` V3.
 6. **Approval card.** Show each comment, its drafted replies, the template used,
    and the target post URL.
 7. **On approval.** Call `lib.publish(kind="comment", draft_text=<approved>,

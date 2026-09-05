@@ -105,6 +105,6 @@ Page a real spotlight post (FB10) with built-in social proof.
 - Human voice, not corporate filler ("We appreciate your valued feedback").
 - One specific detail beats three generic ones.
 - Reply fast: the first hour is when replies lift reach.
-- No em dashes. No AI vocab. Capitalize names.
+- Em dashes capped (a reply is short, so at most one). No AI vocab cluster. Capitalize names.
 - These are copy-paste only. Post each reply under the comment in Facebook or
   Meta Business Suite by hand.

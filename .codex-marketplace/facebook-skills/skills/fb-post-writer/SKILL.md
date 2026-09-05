@@ -64,9 +64,13 @@ shapes (lead here). FB8-FB10 are longer story shapes (use on purpose).
    - 0-2 hashtags, 0-2 emoji, none on a serious take.
    - If the post includes a link, write framing text above it (Facebook builds a
      preview card) and warn that link posts reach fewer people organically.
-5. **Humanizer pass.** Strip em dashes, AI vocab, "We are thrilled to announce",
-   rule-of-three, corporate auto-pilot. Add a specific number or named entity
-   where the claim allows it.
+5. **Humanizer pass.** Scrub 2026 AI vocab by paragraph density, cap em
+   dashes (about one per 100 words, never swap one for a period), strip "We
+   are thrilled to announce" and every corporate opener, break stacked triads
+   and reveal bridges. Fix only a story paragraph that reads machine-flat;
+   never manufacture variance, and never fragment a short post for punch. Add
+   an odd-precision number with a named referent or a named entity where the
+   claim allows it. Canonical rules: `fb-humanizer` V3.
 6. **Optional audit.** Invoke `fb-humanizer --mode audit` for a pass-fail check.
 7. **Approval card.** Show: formula used, full draft, char count (flag if it
    crosses the 80-char sweet spot), suggested posting window, primary goal.
@@ -92,7 +96,10 @@ rules:
 
 - "We are thrilled to announce.." and every variant.
 - Engagement bait ("LIKE and SHARE if you agree", "comment YES", "tag 3 friends").
-- Em dashes anywhere.
+- Em dashes above the cap (more than about one per 100 words), or an em dash swapped for a period.
+- "Here's what" or "Stop X, start Y" as the opener; "The result?" as a reveal.
+- Announced candor ("We'll be honest with you", "real talk") with no dated fact behind it.
+- Staccato stacks ("No X. No Y. Just Z.") and one-word lines added for drama.
 - Padding a one-line idea into five paragraphs.
 - Rule-of-three lists without specifics.
 - "leverage", "fundamentally", "game-changer", "deep dive".

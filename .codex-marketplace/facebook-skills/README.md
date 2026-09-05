@@ -143,7 +143,7 @@ Every skill shows you a draft first and waits for your OK. Nothing gets posted w
 |---|---|
 | **Post Writer** | Drafts a short punchy Page post (favoring the under-80-char engagement sweet spot) or a longer story post, using a 2026 Facebook hook formula picked by goal: shares, comments, or reactions. Runs the humanizer pass before showing you the draft |
 | **Repurposer** | Turns a LinkedIn post, X thread, blog, or newsletter into a native Page post: warms the tone, leads with a standalone claim above the "See more" fold, moves links to the first comment, and strips off-platform artifacts. Transforms, never copy-pastes |
-| **Humanizer** | Strips em dashes, AI vocabulary ("leverage", "delve", "harness"), "We are thrilled to announce" openers, rule-of-three lists, and corporate auto-pilot. Bundles a `--mode audit` pre-publish check (under-80 sweet spot, hook, engagement bait, hashtag and emoji limits) |
+| **Humanizer** | Removes the AI tells human readers react to: 2026 AI vocabulary scored by paragraph density, reveal bridges, staccato fragment stacks, stacked triads, performed sincerity, "We are thrilled to announce" corporate auto-pilot; caps em dashes at about one per 100 words instead of banning them. Does not promise to beat detectors (no edit reliably does). Bundles a `--mode audit` pre-publish check (under-80 sweet spot, hook, engagement bait, hashtag and emoji limits) |
 | **Hook Extractor** | Reverse-engineers the hook from any high-share Page post. Maps it to one of the 10 Facebook formulas and returns a blank template you can fill |
 | **Engagement Drafter** | Drafts replies to comments on your Page's posts in your voice. Publora has no Facebook comment endpoint, so the drafts come back as a copy-paste block to post in Facebook or Meta Business Suite |
 | **Content Planner** | Creates a weekly Page plan with a short-to-story post mix, per-day hooks, posting times, a share-optimized goal balance, and a daily comment-reply target |
@@ -215,9 +215,9 @@ Setup: drop `PIXFARO_TOKEN=pf_live_...` into your `.env`. The thin client at `li
 
 Every skill follows these rules automatically:
 
-1. No em dashes. Biggest AI tell in 2026.
+1. Em dashes capped at about one per 100 words. The character stopped being a tell in 2026; the density is.
 2. Capitalize names. Always. Lowercase a brand reads as careless.
-3. No AI vocabulary: "leverage", "fundamentally", "streamline", "harness", "delve", "unlock", "foster".
+3. No AI vocabulary clusters. One 2026 marker ("leverage", "significant", "streamline", "foster") in a paragraph is English; three in one paragraph reads as AI and gets the paragraph rewritten.
 4. No "We are thrilled to announce" or corporate auto-pilot openers.
 5. Specific numbers beat adjectives. "2.4x" beats "way better".
 6. Lead short. Under 80 chars is the engagement sweet spot. The first line carries the post (Facebook folds longer posts behind "See more").

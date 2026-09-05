@@ -6,10 +6,13 @@ them. Skill-local "Hard rules" sections only add format-specific overrides
 
 ## Hard rules
 
-1. **No em dashes** (`—`), en dashes (`–`), or double dashes (`--`). Biggest AI
-   tell in 2026.
-2. **Use `..` as a soft pause** when you would reach for an em dash. Reads human
-   and matches how people actually type.
+1. **Em dashes (`—`) capped at about 1 per 100 words** (so 0-1 in a short
+   post or reply, 1-2 in a story post). The character is no longer a tell
+   (2026 models use fewer than humans); the density is. Replace the excess
+   with a comma, colon or parentheses, never a period. No en dashes (`–`)
+   between clauses, no double dashes (`--`).
+2. **Use `..` as a soft pause** when you would reach for a second em dash.
+   Reads human and matches how people actually type.
 3. **Capitalize personal names, company names, product names** (Stripe, Canva,
    Shopify). Lowercase a brand name and it reads as careless.
 4. **Write for a Page, not a person.** A Facebook Page is a business voice. It
@@ -22,17 +25,29 @@ them. Skill-local "Hard rules" sections only add format-specific overrides
 7. **Lead short.** The under-80-character post is the highest-engagement shape on
    a Page. Reach for it first; only go long when the story genuinely needs room.
 
-## Vocabulary blacklist
+## Vocabulary markers (density-scored)
 
-Never use:
+Count these per paragraph. One is English; two is borderline (flag it in the report, leave the words);
+three in one paragraph reads as AI and the whole paragraph gets rewritten (see `fb-humanizer` V3).
+The durable 2026 set (significant, crucial, notably, particularly,
+comprehensive, insights, robust, leverage, foster, landscape, nuanced,
+streamline, elevate, empower) counts alongside the older corporate words:
 - leverage, utilize, facilitate, streamline, robust, seamless, delve, navigate,
   unlock, harness, foster, cultivate
 - fundamentally, essentially, ultimately, crucially, notably
 - landscape, ecosystem, paradigm, realm, tapestry, journey
+
+## Always forbidden (single hit, regardless of density)
+
+These are scrubbed on sight. They are reveal bridges, negative parallelism,
+dead phrases or performed sincerity, not vocabulary:
 - "It's not just X, it's Y"
 - "In today's fast-paced world"
 - "game-changer", "deep dive", "at the end of the day", "needle-mover"
 - "We are thrilled to announce" (the deadest Page-post opener there is)
+- Sincerity announcements as an opener or pivot: "let me be honest", "I'll be
+  real", "honestly?", "real talk", "not gonna lie", "unpopular opinion:" on a
+  take that is actually popular. State the fact flat instead.
 
 ## Facebook-Page-native style
 
@@ -78,7 +93,8 @@ Never use:
 - "We are thrilled / excited / delighted to announce.." openers.
 - Generic corporate hype with no specific detail.
 - Walls of text with no line breaks.
-- Rule of three ("faster, cheaper, better").
+- Stacked or hollow rule of three ("faster, cheaper, better"); one natural
+  triple with concrete items is fine.
 - Stuffing 5+ hashtags at the bottom.
 - Begging for engagement ("LIKE and SHARE if you agree", "comment YES").
 - ALL CAPS for intensity. Carry intensity with word choice.

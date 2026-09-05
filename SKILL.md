@@ -79,7 +79,7 @@ auto-publish through Publora normally.
 
 ## Voice rules (baked into every skill)
 
-1. No em dashes (`—`), en dashes, or double dashes. Biggest AI tell.
+1. Em dashes (`—`) capped at about 1 per 100 words (0-1 in a short post, 1-2 in a story post); replace the excess with a comma, colon or parentheses, never a period. No en dashes between clauses, no double dashes.
 2. Use `..` as a soft pause when rhythm calls for it.
 3. Capitalize all personal, company, and product names. Lowercase a brand reads
    as careless.

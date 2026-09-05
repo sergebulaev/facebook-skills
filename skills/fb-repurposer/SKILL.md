@@ -53,9 +53,12 @@ comments on your Page (use `fb-engagement-drafter`).
    "read more below", hashtag walls, X @-handles that only exist elsewhere, and
    any "as I posted on LinkedIn" throat-clearing. A repurposed post should not
    admit it was repurposed.
-8. **Humanizer pass.** Run `fb-humanizer` on the draft: em dashes, AI vocab,
-   rule-of-three, "We are thrilled to announce", generic openers. Keep the user's
-   real numbers and named entities from the source.
+8. **Humanizer pass.** Run `fb-humanizer` V3 on the draft: 2026 AI vocab by
+   paragraph density, em dashes above the cap (about one per 100 words, never
+   swapped for a period), stacked rule-of-three triads, "We are thrilled to
+   announce", generic openers and reveal bridges. Fix only a story paragraph
+   that reads machine-flat; never manufacture variance. Keep the user's real
+   numbers and named entities from the source.
 9. **Approval card.** Show: source -> Facebook mapping (what became what), the
    container (short post or story post), shape used, char count (flag if it
    crosses the 80-char sweet spot), whether a link moved to the first comment,
@@ -104,7 +107,8 @@ rules:
   hashtag walls, X @-handles, "1/ 2/" thread numbering).
 - "You won't BELIEVE" clickbait or ALL CAPS for intensity.
 - Engagement bait ("LIKE and SHARE if you agree", "tag 3 friends").
-- Em dashes anywhere.
+- Em dashes above the cap (more than about one per 100 words), or an em dash swapped for a period.
+- "The result?" / "Here's what" reveal bridges and staccato stacks added during the rewrite.
 - Rule-of-three lists without specifics.
 - "leverage", "fundamentally", "game-changer", "deep dive".
 - A bare external link in the post body (move it to the first comment).

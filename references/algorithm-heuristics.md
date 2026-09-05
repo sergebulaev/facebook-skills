@@ -157,10 +157,10 @@ post.
 
 - [ ] Leads short where possible (under 80 chars is the engagement sweet spot).
 - [ ] First line carries the post (everything above the "See more" fold).
-- [ ] No em dashes (`—`), en dashes (`–`), or double dashes (`--`).
-- [ ] No AI vocabulary blacklist words (leverage, fundamentally, delve, etc.).
+- [ ] Em dashes (`—`) at or under about one per 100 words (never swap one for a period); no en dashes (`–`) between clauses or double dashes (`--`).
+- [ ] No AI vocabulary cluster (3+ markers in one paragraph: leverage, fundamentally, significant, etc.).
 - [ ] No "We are thrilled to announce" or corporate auto-pilot opener.
-- [ ] At least one specific number where the claim allows it.
+- [ ] At least one odd-precision number with a named referent where the claim allows it.
 - [ ] 0-2 hashtags, 0-2 emoji, and only where each earns its place.
 - [ ] No engagement bait ("LIKE and SHARE", "comment YES", "tag 3 friends").
 - [ ] A clear primary goal (shares / comments / reactions), not all at once.

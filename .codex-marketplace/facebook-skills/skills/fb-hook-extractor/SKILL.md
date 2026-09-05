@@ -36,8 +36,9 @@ reader, so the user pastes the post text either way.
 - **Why it worked** psychologically and algorithmically (meaningful interactions)
 - **Blank template** with `{slot}` markers matched to the original, ready for the
   user's topic
-- **Cautions:** anything in the original that would fail a 2026 audit (em dashes,
-  AI vocab, "We are thrilled to announce", engagement bait, 5+ hashtags)
+- **Cautions:** anything in the original that would fail a 2026 audit (em
+  dashes over the cap, an AI-vocab cluster, "We are thrilled to announce",
+  engagement bait, 5+ hashtags)
 
 ## Steps
 

@@ -20,7 +20,7 @@ returns a blank template.
 - **Why it worked:** a single hard number is the most shareable unit on a Page.
   "Under 4 minutes" is specific enough to be believable and surprising enough to
   pass on. It earns the share without asking for it.
-- **Source audit:** clean. No em dashes, no AI vocab, no bait.
+- **Source audit:** clean. Em dashes under the cap, no AI vocab cluster, no bait.
 
 **Blank template (FB2):**
 

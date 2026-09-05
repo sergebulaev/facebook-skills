@@ -101,7 +101,7 @@ Global voice rules: see root `SKILL.md` Voice rules. Additional skill-specific r
   statement.
 - One specific or one number in the Intro where it fits.
 - Keep every rewrite inside Facebook's limits. Never ship a truncated Intro.
-- No em dashes. No "leverage", "fundamentally", "we are thrilled to announce".
+- At most one em dash in the Intro (a short Intro rarely needs one). No "leverage", "fundamentally", "we are thrilled to announce".
 
 ## Related skills
 

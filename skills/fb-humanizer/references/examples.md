@@ -12,10 +12,15 @@ Worked before/after rewrites. Each shows the AI tells caught and the fix.
 > this journey with all of you. Stay tuned for more updates.
 
 Tells caught:
-- "We are thrilled to announce" (corporate auto-pilot, blocker)
-- "fundamentally", "leverage", "game-changer", "embark on this journey" (AI vocab)
-- No specific detail, no number, no human voice
+- "We are thrilled to announce" (corporate opener, single-hit blocker)
+- The paragraph scores 4 markers ("fundamentally", "leverage",
+  "game-changer", "embark on this journey"), so it is rewritten as a
+  paragraph, not word-swapped
+- No specific detail, no number with a referent, no human voice
 - Way over the 80-char sweet spot with nothing earning the length
+- Not caught: nothing about rhythm. The fix is the short version of the
+  point, not the paragraph chopped into fragments. Pass 4: no hedge, no
+  "we'll be honest" frame was added; "rebuilt three times" came from the user
 
 **After (rewrite, short):**
 
@@ -84,5 +89,10 @@ Tells caught:
 >
 > Sold out by noon. Sometimes the backup plan is just people who show up.
 
-A long post, but every line earns its place: a real scene, a real number, a
-quotable ending built to be shared. This is when going long is the right call.
+A long post, but every line earns its place: a real scene, a real number with
+a referent (200 loaves, a stranger's kitchen, by 9), a quotable ending built
+to be shared. This is when going long is the right call. Pass 2 note: the
+lines vary in length because the story does, not because a humanizer chopped
+them; "Sold out by noon." is the post's one standalone fragment, under the
+2-per-post cap. Pass 4 note: the uncomfortable fact ("The oven died at 4am")
+is stated flat with no "we'll be honest" frame around it.

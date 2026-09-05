@@ -52,8 +52,8 @@ Infer what the original optimized for from its shape and its visible metrics:
 ## Step 6: source audit
 
 Flag, do not copy:
-- em dashes, en dashes, double dashes
-- AI vocab (leverage, fundamentally, delve, etc.)
+- em dashes above about one per 100 words; en dashes between clauses; double dashes
+- an AI vocab cluster (3+ markers in one paragraph: leverage, fundamentally, significant, etc.)
 - "We are thrilled / excited / delighted to announce"
 - engagement bait ("LIKE and SHARE", "comment YES", "tag 3 friends")
 - 5+ hashtags
