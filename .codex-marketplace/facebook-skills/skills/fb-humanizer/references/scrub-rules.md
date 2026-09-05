@@ -35,12 +35,14 @@ def score_paragraph(paragraph: str, markers: dict) -> dict:
         for m in re.finditer(pattern, paragraph, flags=re.I):
             hits.append((name, m.group(0)))
     n = len(hits)
+    always = [h for h in hits if h[0] in ("reveal_bridge", "neg_parallel", "sincerity_marker", "corporate_opener")]
     if n >= 3:
         action = "REWRITE_PARAGRAPH"   # 3+ markers = signal. Rewrite the paragraph, not word-by-word.
+    elif always:
+        action = "REPLACE"             # a reveal bridge / negative parallelism / sincerity marker / corporate opener is always scrubbed,
+                                       # even when paired with one ordinary marker (checked BEFORE the density branch)
     elif n == 2:
-        action = "FLAG_ONLY"           # 2 = borderline. Report it, leave the words: the audit allows 0-2 per unit.
-    elif n == 1 and hits[0][0] in ("reveal_bridge", "neg_parallel", "sincerity_marker", "corporate_opener"):
-        action = "REPLACE"             # a single reveal bridge / negative parallelism / sincerity marker / corporate opener is always scrubbed
+        action = "FLAG_ONLY"           # 2 ordinary markers = borderline. Report it, leave the words: the audit allows 0-2 per unit.
     else:
         action = "LEAVE"               # a single common word is not a verdict
     return {"hits": hits, "count": n, "action": action}
