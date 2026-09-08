@@ -164,6 +164,8 @@ By default, the skills draft content for you to copy-paste into your Facebook Pa
 
 [Publora](https://publora.com) is a publishing API that turns one `create-post` call into a Facebook Page post (and can cross-post the same content to LinkedIn, Instagram, X, Threads, and more), without you touching the Facebook Graph API.
 
+Publora also ships [official MCP skills](https://github.com/publora/skills) (`npx skills add publora/skills`): one skill per platform, covering the publish side only. This bundle is the layer above them, adding the reading, the writing craft and the approval flow.
+
 ### Setup (2 minutes)
 
 **Step 1.** Sign up at https://app.publora.com/signup (free)
