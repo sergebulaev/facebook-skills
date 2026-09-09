@@ -1,6 +1,6 @@
 ---
 name: fb-hook-extractor
-description: Reverse-engineer the hook from a high-share Facebook Page post, from its URL or pasted text. Identifies which of the 10 canonical 2026 Facebook formulas it uses (one-line opinion, tiny number, ask-the-page question, this-or-that, behind-the-scenes, story post, announcement, spotlight), explains why it earned shares or comments, and returns a blank template mapped to your topic. Use to learn from a Page post you admire. Not for writing your own (use fb-post-writer).
+description: "Reverse-engineer the hook from a high-share Facebook Page post, from its URL or pasted text. Identifies which of the 10 canonical 2026 Facebook formulas it uses (one-line opinion, tiny number, ask-the-page question, this-or-that, behind-the-scenes, story post, announcement, spotlight), explains why it earned shares or comments, and returns a blank template mapped to your topic. Use to learn from a Page post you admire. Not for writing your own (use fb-post-writer)."
 ---
 
 # Facebook Page Hook Extractor

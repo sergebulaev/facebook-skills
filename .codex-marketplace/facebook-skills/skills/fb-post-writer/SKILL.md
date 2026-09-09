@@ -1,6 +1,6 @@
 ---
 name: fb-post-writer
-description: Draft a short punchy Facebook Page post, or a longer story post, using a 2026 Facebook hook formula (one-line opinion, tiny number, ask-the-page question, this-or-that, useful tip, story post) picked by goal (shares, comments, reactions). Favors the under-80-character engagement sweet spot, runs the humanizer pass, and publishes via Publora on approval. Use to write a Page post from notes. Not for replying to comments (use fb-engagement-drafter) or auditing a draft (use fb-humanizer).
+description: "Draft a short punchy Facebook Page post, or a longer story post, using a 2026 Facebook hook formula (one-line opinion, tiny number, ask-the-page question, this-or-that, useful tip, story post) picked by goal (shares, comments, reactions). Favors the under-80-character engagement sweet spot, runs the humanizer pass, and publishes via Publora on approval. Use to write a Page post from notes. Not for replying to comments (use fb-engagement-drafter) or auditing a draft (use fb-humanizer)."
 ---
 
 # Facebook Page Post Writer

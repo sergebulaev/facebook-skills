@@ -1,6 +1,6 @@
 ---
 name: fb-repurposer
-description: Repurpose existing content into a native Facebook Page post. Take a LinkedIn post, X thread, blog, or newsletter and rewrite it for a Page: warm the tone, lead with a standalone claim before the "See more" fold, move links to the first comment, strip off-platform artifacts (hashtag walls, "link in bio", @-handles), then humanize and publish via Publora on approval. Not for writing from scratch (use fb-post-writer), auditing a draft (use fb-humanizer), or comment replies (use fb-engagement-drafter).
+description: "Repurpose existing content into a native Facebook Page post. Take a LinkedIn post, X thread, blog, or newsletter and rewrite it for a Page: warm the tone, lead with a standalone claim before the \"See more\" fold, move links to the first comment, strip off-platform artifacts (hashtag walls, \"link in bio\", @-handles), then humanize and publish via Publora on approval. Not for writing from scratch (use fb-post-writer), auditing a draft (use fb-humanizer), or comment replies (use fb-engagement-drafter)."
 ---
 
 # Facebook Repurposer

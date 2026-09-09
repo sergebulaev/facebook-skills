@@ -1,6 +1,6 @@
 ---
 name: fb-humanizer
-description: 'Remove the AI tells readers react to in a Facebook Page post: 2026 vocabulary by density, reveal bridges, staccato stacks, stacked triads, performed sincerity, "We are thrilled to announce" auto-pilot; caps em dashes. Includes --mode audit (under-80 sweet spot, hook, engagement bait, hashtag and emoji limits) and --mode profile. Not for beating AI detectors (no edit reliably does). Not for writing from scratch (use fb-post-writer). Keywords: humanize, de-AI my post, audit before posting.'
+description: "Remove the AI tells readers react to in a Facebook Page post: 2026 vocabulary by density, reveal bridges, staccato stacks, stacked triads, performed sincerity, \"We are thrilled to announce\" auto-pilot; caps em dashes. Includes --mode audit (under-80 sweet spot, hook, engagement bait, hashtag and emoji limits) and --mode profile. Not for beating AI detectors (no edit reliably does). Not for writing from scratch (use fb-post-writer). Keywords: humanize, de-AI my post, audit before posting."
 ---
 
 # Facebook Page Humanizer V3

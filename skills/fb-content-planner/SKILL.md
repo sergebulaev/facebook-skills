@@ -1,6 +1,6 @@
 ---
 name: fb-content-planner
-description: Generate a weekly Facebook Page content plan from a theme, audience, and content pillars. Produces per-day picks (short post vs story post, hook formula, angle, posting time, primary goal), a short-to-story post mix, a daily comment-reply target, and a share-optimized goal-mix balance check across shares, comments, and reactions. Use when the user wants to plan a week of Page content. Not for drafting one post (use fb-post-writer) or replying to comments (use fb-engagement-drafter).
+description: "Generate a weekly Facebook Page content plan from a theme, audience, and content pillars. Produces per-day picks (short post vs story post, hook formula, angle, posting time, primary goal), a short-to-story post mix, a daily comment-reply target, and a share-optimized goal-mix balance check across shares, comments, and reactions. Use when the user wants to plan a week of Page content. Not for drafting one post (use fb-post-writer) or replying to comments (use fb-engagement-drafter)."
 ---
 
 # Facebook Page Content Planner

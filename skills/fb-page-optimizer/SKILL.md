@@ -1,6 +1,6 @@
 ---
 name: fb-page-optimizer
-description: Audit and rewrite a Facebook Page for 2026: Page name, username and vanity URL, profile picture and cover photo, Intro/About and category, the CTA button (Shop, Book, Sign Up, Contact matched to your goal), pinned post, tabs order, and contact/link fields. Triggers on "review my Facebook Page", "fix my Page about", "optimize my cover", "set my CTA button", "Page audit". Converts a default Page into one that turns a visitor into a follower or a lead. Not for writing Page posts (use fb-post-writer).
+description: "Audit and rewrite a Facebook Page for 2026: Page name, username and vanity URL, profile picture and cover photo, Intro/About and category, the CTA button (Shop, Book, Sign Up, Contact matched to your goal), pinned post, tabs order, and contact/link fields. Triggers on \"review my Facebook Page\", \"fix my Page about\", \"optimize my cover\", \"set my CTA button\", \"Page audit\". Converts a default Page into one that turns a visitor into a follower or a lead. Not for writing Page posts (use fb-post-writer)."
 ---
 
 # Facebook Page Optimizer

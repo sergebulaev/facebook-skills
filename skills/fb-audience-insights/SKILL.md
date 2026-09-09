@@ -1,6 +1,6 @@
 ---
 name: fb-audience-insights
-description: Read a Facebook Page and its audience from real data. Pull any Page's public stats (yours or a competitor's): followers, likes, categories, intro, websites. And pull the commenters on a public Page post, since Facebook hides the reactor and liker roster and shows counts only, so commenters are the signal. Powered by Apify, no login. Triggers on "analyze my Page", "competitor Page stats", "who is commenting", "read the comments", "audience insights". Not for writing Page posts (use fb-post-writer).
+description: "Read a Facebook Page and its audience from real data. Pull any Page's public stats (yours or a competitor's): followers, likes, categories, intro, websites. And pull the commenters on a public Page post, since Facebook hides the reactor and liker roster and shows counts only, so commenters are the signal. Powered by Apify, no login. Triggers on \"analyze my Page\", \"competitor Page stats\", \"who is commenting\", \"read the comments\", \"audience insights\". Not for writing Page posts (use fb-post-writer)."
 ---
 
 # Facebook Audience Insights

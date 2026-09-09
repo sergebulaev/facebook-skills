@@ -1,6 +1,6 @@
 ---
 name: facebook-marketing
-description: Plan, draft, audit, and publish posts for a Facebook Page. Use when the user wants to write a short punchy Page post or a longer story post, remove AI tells from a draft, reverse-engineer the hook from a high-share Page post, draft replies to comments on their Page, or plan a week of Facebook Page content. Page posts publish via the Publora API. User provides notes or a Facebook Page post URL, the skill drafts, the user approves, then it publishes.
+description: "Plan, draft, audit, and publish posts for a Facebook Page. Use when the user wants to write a short punchy Page post or a longer story post, remove AI tells from a draft, reverse-engineer the hook from a high-share Page post, draft replies to comments on their Page, or plan a week of Facebook Page content. Page posts publish via the Publora API. User provides notes or a Facebook Page post URL, the skill drafts, the user approves, then it publishes."
 ---
 
 # Facebook Pages Marketing Skills

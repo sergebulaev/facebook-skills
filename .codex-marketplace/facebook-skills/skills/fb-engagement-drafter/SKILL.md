@@ -1,6 +1,6 @@
 ---
 name: fb-engagement-drafter
-description: Draft replies to comments on your Facebook Page's posts, in your Page voice. Use when the user pastes the comments under one of their Page posts and wants on-brand replies that earn more comments and shares. Drafts 1-3 variants per comment using proven templates (answer, thank plus add value, handle the complaint, turn it into a share). Publora has no Facebook comment endpoint, so every draft returns as a copy-paste block to post yourself. Not for writing top-level posts (use fb-post-writer).
+description: "Draft replies to comments on your Facebook Page's posts, in your Page voice. Use when the user pastes the comments under one of their Page posts and wants on-brand replies that earn more comments and shares. Drafts 1-3 variants per comment using proven templates (answer, thank plus add value, handle the complaint, turn it into a share). Publora has no Facebook comment endpoint, so every draft returns as a copy-paste block to post yourself. Not for writing top-level posts (use fb-post-writer)."
 ---
 
 # Facebook Page Engagement Drafter
