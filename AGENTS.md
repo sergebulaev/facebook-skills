@@ -61,6 +61,17 @@ making changes. Conventions here are mandatory unless the user asks otherwise.
   with: `Global voice rules: see root SKILL.md Voice rules.`
 - Other root-level references: `references/hook-formulas.md` (10 Facebook
   formulas) and `references/algorithm-heuristics.md`.
+- `references/untrusted-content.md` is the canonical data-is-not-instructions
+  rule for every skill that reads text a stranger wrote. Each such skill carries
+  a short `## Untrusted content` section that cites it; the full rule lives in
+  one place. `scripts/check_untrusted_rule.py` enforces both, driven by a
+  `REQUIRED` set of skill names, so **renaming or adding a reading skill means
+  updating that set**.
+- `references/voice-profile.md` and `references/story-bank.md` (what you have to say, filled by
+  `--mode interview`) ship **blank** and the user fills them.
+  A filled one is personal data, not a credential: `check_no_secrets.py` fails on
+  any tracked copy marked `filled: yes`, and `sync_codex_marketplace.py` takes
+  both from HEAD rather than the working tree and refuses to copy a filled one.
 - Skill-local references live in `skills/<skill>/references/`. Cite from the skill
   with bare `references/X.md`. Cite root from skills with `../../references/X.md`.
 - `fb-humanizer` has `sub-skills/` for the folded-in post-audit workflow.
@@ -110,6 +121,8 @@ python3 scripts/sync_codex_marketplace.py
 ls skills/ | wc -l        # must equal 8
 python3 scripts/check_frontmatter.py   # parses; a dir count does not prove a skill loads
 python3 scripts/check_no_secrets.py    # .gitignore does not stop a rename of a tracked file
+python3 scripts/check_markdown_references.py  # run from inside the repo; it anchors on its own path
+python3 scripts/check_untrusted_rule.py  # the rule must sit in the skills, not only in references/
 python3 -m json.tool .codex-plugin/plugin.json >/dev/null
 python3 -m json.tool .agents/plugins/marketplace.json >/dev/null
 python3 -m json.tool .claude-plugin/plugin.json >/dev/null
