@@ -1,6 +1,6 @@
 ---
 name: fb-humanizer
-description: "Remove the AI tells readers react to in a Facebook Page post: 2026 vocabulary by density, reveal bridges, staccato stacks, stacked triads, performed sincerity, \"We are thrilled to announce\" auto-pilot; caps em dashes. Includes --mode audit (under-80 sweet spot, hook, engagement bait, hashtag and emoji limits) and --mode profile. Not for beating AI detectors (no edit reliably does). Not for writing from scratch (use fb-post-writer). Keywords: humanize, de-AI my post, audit before posting."
+description: "Remove the AI tells readers react to in a Facebook Page post: 2026 vocabulary by density, reveal bridges, staccato stacks, stacked triads, announcement auto-pilot. Also --mode audit (under-80 sweet spot, hook, engagement bait), --mode profile (learns how you write) and --mode interview (fills your Story Bank: the stories, scars and numbers posts are made of). Not for writing from scratch (use fb-post-writer). Keywords: humanize, de-AI my post, interview me, audit before posting."
 ---
 
 # Facebook Page Humanizer V3
@@ -107,6 +107,10 @@ fb-humanizer --mode audit <text>
 
 # Profile - build/update the user's Voice & Brand Profile. See the section below.
 fb-humanizer --mode profile
+
+# Interview - fill the Story Bank: what you have to say, not how you say it.
+# 20-40 minutes, resumable, or --mode interview post for one focused topic.
+fb-humanizer --mode interview
 ```
 
 ## The four passes
@@ -279,11 +283,28 @@ See `references/examples.md` for worked before/after rewrites.
 - `references/audit-checklist.md` - the pre-publish checklist with thresholds
 - `sub-skills/post-audit.md` - pre-publish audit workflow (detection-only, no rewrite)
 - `sub-skills/voice-profile.md` - build/update the user's Voice & Brand Profile (`--mode profile`)
+- `sub-skills/story-bank-interview.md` - interview the user and fill the Story Bank (`--mode interview`)
 - `sub-skills/illustration.md` - optional Pixfaro image workflow
 
 ## Voice profile mode (`--mode profile`)
 
 `fb-humanizer --mode profile` builds or updates the user's Voice & Brand Profile at `../../references/voice-profile.md` from 3-6 of their real Facebook posts pasted in (portable, no token) or, if a read token is set, from pulled activity. Once filled, every writing skill in this bundle drafts in the user's voice automatically. See `sub-skills/voice-profile.md`. Triggers: "build my voice profile", "learn my voice".
+
+## Story Bank mode (`--mode interview`)
+
+`fb-humanizer --mode interview` interviews the user and writes
+`../../references/story-bank.md`: the numbers, dated moments, turning points, scars
+and positions their posts are made of. The Voice Profile holds how they sound; the
+bank holds what they have to say, and an empty bank is the usual reason drafts come
+out generic. Budget 20 to 40 minutes, resumable across sessions.
+
+`--mode interview post` runs the short version: 5 to 8 questions on one topic,
+ending in a five-line spine (Moment, Number, Correction, Opposition, Ask) handed to
+`fb-post-writer`.
+
+Never invents an answer: a line with nothing real in it stays empty and the section
+is marked thin. See `sub-skills/story-bank-interview.md`. Triggers: "interview me",
+"ask me questions", "help me work out what to post about".
 
 ## Related skills
 

@@ -49,6 +49,8 @@ the target link) and the Page's voice samples.
 
 **Voice profile first (all drafts).** If `../../references/voice-profile.md` has `filled: yes`, load it and match the user's voice fingerprint, hard rules, and CTA/link style throughout. If it is not filled, mention once that `fb-humanizer --mode profile` can learn their voice from a few posts, then proceed with the generic voice rules.
 
+**Story bank next.** If `../../references/story-bank.md` has `filled: yes`, load it and take every concrete detail (numbers, dates, named projects, positions) from there instead of asking mid-draft. **Never invent a figure, a date or a client name that is not in the bank or supplied by the user in this conversation.** If the bank has nothing that fits, ask the user, or say once that `fb-humanizer --mode interview` fills it in 20 to 40 minutes. A draft with a plausible invented number is worse than a draft with none: one is vague, the other is a retraction.
+
 1. **Parse the post URL** if given. `lib.url_parser.parse_facebook_url(url)`
    returns `page`, `post_id`, `canonical_url` for the target link.
 2. **Read the context.** Ask the user to paste the post and the comments. Group

@@ -19,6 +19,7 @@ the [Publora API](https://publora.com) for posting to Facebook Pages.
 - **Planning a week of Facebook Page content** -> use `fb-content-planner`
 - **Auditing and rewriting the Page itself (name, cover, About, CTA button, pinned post)** -> use `fb-page-optimizer`
 - **Reading a Page's stats (yours or a competitor's) or the commenters on a post from real data** -> use `fb-audience-insights`
+- **Working out what you actually have to say, or having nothing concrete for a draft to use** -> use `fb-humanizer --mode interview`. It interviews you and fills the Story Bank every writing skill reads before drafting.
 
 ## Core pattern
 
@@ -131,6 +132,8 @@ text.
 
 - [Publora API docs](https://docs.publora.com) - endpoint reference for the publishing layer
 - `lib/publora_client.py` - thin Python client used by the writing skills
+- `references/story-bank.md` - what you have to say, filled by the interview
+- `references/voice-profile.md` - how you sound, filled by `--mode profile`
 - `lib/url_parser.py` - Facebook Page URL to page/post-id parser
 
 ## Acknowledgments
