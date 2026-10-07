@@ -139,6 +139,7 @@ python3 scripts/check_frontmatter.py   # parses; a dir count does not prove a sk
 python3 scripts/check_no_secrets.py    # .gitignore does not stop a rename of a tracked file
 python3 scripts/check_markdown_references.py  # run from inside the repo; it anchors on its own path
 python3 scripts/check_untrusted_rule.py  # the rule must sit in the skills, not only in references/
+python3 scripts/check_text_encoding.py  # a bare read_text() is cp1252 on Windows, mojibake or a crash
 grep -rnP '\x{2014}|\x{2013}' skills/*/SKILL.md SKILL.md | grep -i '^.*description:'   # must be empty
 python3 -m json.tool .codex-plugin/plugin.json >/dev/null
 python3 -m json.tool .agents/plugins/marketplace.json >/dev/null

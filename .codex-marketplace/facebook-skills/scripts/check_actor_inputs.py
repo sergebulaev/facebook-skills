@@ -98,7 +98,7 @@ def main() -> int:
         print(f"no Apify client at {CLIENT.relative_to(ROOT)}, nothing to check")
         return 0
 
-    tree = ast.parse(CLIENT.read_text())
+    tree = ast.parse(CLIENT.read_text(encoding="utf-8"))
     consts = string_constants(tree)
     actors = sorted({v for v in consts.values() if looks_like_actor(v)})
     sole = actors[0] if len(actors) == 1 else None

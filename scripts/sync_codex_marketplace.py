@@ -71,8 +71,10 @@ def restore_blank_templates() -> list[str]:
         source = ROOT / "references" / name
         if not source.is_file():
             continue
+        # The blob is UTF-8. Decoding it with the locale (cp1252 on Windows)
+        # and writing UTF-8 back turns every em dash into mojibake.
         blob = subprocess.run(["git", "show", f"HEAD:references/{name}"],
-                              cwd=ROOT, capture_output=True, text=True)
+                              cwd=ROOT, capture_output=True, encoding="utf-8")
         if blob.returncode == 0:
             text = blob.stdout
         else:
