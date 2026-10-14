@@ -157,7 +157,7 @@ class PubloraClient:
         page that needs reconnecting.
         """
         r = self._session.get(
-            self.BASE_URL + "/platform-connections", timeout=self.timeout
+            self.BASE_URL + "/platform-connections", allow_redirects=False, timeout=self.timeout
         )
         data = self._handle(r)
         return data.get("connections", [])
@@ -175,7 +175,7 @@ class PubloraClient:
     @_retry()
     def _post(self, path: str, json_body: dict[str, Any]) -> dict[str, Any]:
         r = self._session.post(
-            self.BASE_URL + path, json=json_body, timeout=self.timeout
+            self.BASE_URL + path, json=json_body, allow_redirects=False, timeout=self.timeout
         )
         return self._handle(r)
 

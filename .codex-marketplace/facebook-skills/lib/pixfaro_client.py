@@ -206,7 +206,7 @@ class PixfaroClient:
         """GET /v1/models — live model catalog + per-tier pricing."""
         url = f"{BASE_URL}/models"
         try:
-            r = self._session.get(url, headers=self._headers(), timeout=self.timeout)
+            r = self._session.get(url, headers=self._headers(), allow_redirects=False, timeout=self.timeout)
         except requests.RequestException as e:
             raise PixfaroError(f"request failed: {e}", retryable=True) from e
         out = self._handle(r)
@@ -222,7 +222,7 @@ class PixfaroClient:
     def _post(self, path: str, json_body: dict[str, Any]) -> dict[str, Any]:
         url = f"{BASE_URL}{path}"
         try:
-            r = self._session.post(url, json=json_body, headers=self._headers(), timeout=self.timeout)
+            r = self._session.post(url, json=json_body, headers=self._headers(), allow_redirects=False, timeout=self.timeout)
         except requests.RequestException as e:
             raise PixfaroError(f"request failed: {e}", retryable=True) from e
         return self._handle(r)

@@ -145,7 +145,7 @@ class ApifyClient:
         try:
             r = requests.post(RUN_SYNC.format(actor=actor),
                               params={"token": self._require()}, json=payload,
-                              timeout=self.timeout)
+                              allow_redirects=False, timeout=self.timeout)
         except requests.RequestException as e:
             err = ApifyError(f"network error: {e}"); err.status = 503; raise err
         if r.status_code >= 400:
