@@ -213,6 +213,25 @@ A post with a visual gets more reach. The Post Writer can generate a link-previe
 
 Setup: drop `PIXFARO_TOKEN=pf_live_...` into your `.env`. The thin client at `lib/pixfaro_client.py` and the wrappers `lib.illustrate(prompt, kind="wide")` / `lib.refine(image_id, instruction)` return a hosted URL that flows straight into `lib.publish(..., media_urls=[url])`. `refine` edits a prior image by its id (cheaper than regenerating); results carry `cost`, `balance_after`, and a `premium` flag so the skills never quietly spend on a pricey model.
 
+## Optional: read real Facebook data with Apify
+
+`fb-audience-insights` reads a Page's public stats (title, followers, likes, categories, intro, websites) and the commenters on a public Page post, with each comment's author, reactions, reply count and depth. `fb-engagement-drafter` uses the same comment read to decide who is worth answering first. Without a read credential both ask you to paste what you can see, so nothing breaks.
+
+**With a shell**, drop a free token into your `.env`:
+
+```
+APIFY_TOKEN=apify_api_...
+```
+
+**On claude.ai**, where a skill has no environment to hold a token, add Apify's MCP server as a custom connector instead:
+
+```
+https://mcp.apify.com?actors=apify/facebook-pages-scraper,danek/facebook-comments-ppr
+```
+
+Sign in with OAuth on first use, no key on disk. **Keep the `?actors=` filter**: the bare `https://mcp.apify.com` also hands the agent `search-actors` and `call-actor`, which run anything in the Apify Store at whatever that actor charges.
+
+Facebook never exposes who reacted to a post, only the counts, so the engagement signal here is commenters plus Page stats and never a reactor roster. Details and the field mapping: [`references/mcp-read-layer.md`](references/mcp-read-layer.md).
 ## Voice rules
 
 Every skill follows these rules automatically:

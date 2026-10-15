@@ -26,9 +26,16 @@ is a documented limitation of the publish layer, not a missing feature here.
 
 ## Input
 
-The Page post (for context) and the comments to reply to, pasted by the user,
-since this bundle has no built-in Page reader. Optionally the Page post URL (for
-the target link) and the Page's voice samples.
+The Page post for context, and the comments to reply to. **The comments can be
+read rather than pasted**: with `APIFY_TOKEN`,
+`lib.ApifyClient().fetch_post_commenters(post_url, max_comments=25)`; on
+claude.ai, the Apify MCP connector's `danek--facebook-comments-ppr` with the
+mapping in `../../references/mcp-read-layer.md`. Each comment comes back with
+its author, reactions, reply count and depth, which is what decides who is
+worth answering first. The post text itself has no reader, so paste that, and
+with a `share/p/` link paste the comments too: the ids are behind an opaque
+token. Optionally the Page post URL for the target link, and the Page's voice
+samples.
 
 ## Output
 

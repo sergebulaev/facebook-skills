@@ -21,7 +21,7 @@ Not for writing a Page post (use `fb-post-writer`) or drafting comment replies (
 
 ## Setup (optional)
 
-The read layer uses **Apify** (no login, no cookies). Get a free token at `https://console.apify.com/account/integrations` and set `APIFY_TOKEN`. No token? Paste the Page stats or the comments you already have and the skill runs the same analysis on them.
+The read layer uses **Apify** (no login, no cookies). Get a free token at `https://console.apify.com/account/integrations` and set `APIFY_TOKEN`. No token? Paste the Page stats or the comments you already have and the skill runs the same analysis on them. **On claude.ai**, where a skill cannot hold a token, add Apify's MCP server as a custom connector instead and call `apify--facebook-pages-scraper` / `danek--facebook-comments-ppr`, applying the mapping in `../../references/mcp-read-layer.md`. With neither, the skill asks you to paste what you can see.
 
 ## Input
 
