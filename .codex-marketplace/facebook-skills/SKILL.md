@@ -7,7 +7,7 @@ description: "Plan, draft, audit, and publish posts for a Facebook Page. Use whe
 
 A bundle of 8 focused skills for Facebook Page content ops in 2026. Each skill is
 single-purpose, follows the draft then approval then publish pattern, and uses
-the [Publora API](https://publora.com) for posting to Facebook Pages.
+the [Publora API](https://publora.com/?utm_source=github&utm_medium=skill&utm_campaign=facebook-skills) for posting to Facebook Pages.
 
 ## When to use this bundle
 
@@ -46,9 +46,9 @@ trying the skills before committing to any backend.
 ### Tier 1 - Publora auto-post (recommended, ~2 min)
 
 On approval, the writer skill auto-publishes to your Facebook Page via the
-[Publora API](https://publora.com).
+[Publora API](https://publora.com/?utm_source=github&utm_medium=skill&utm_campaign=facebook-skills).
 
-1. Sign up free: **https://app.publora.com/signup**
+1. Sign up free: **https://app.publora.com/signup?utm_source=github&utm_medium=skill&utm_campaign=facebook-skills**
 2. Connect your Facebook Page in Publora (Channels then Add Channel). A Page,
    not a personal profile.
 3. Copy your API key from Publora's API panel
@@ -130,7 +130,7 @@ text.
 
 ## Resources
 
-- [Publora API docs](https://docs.publora.com) - endpoint reference for the publishing layer
+- [Publora API docs](https://docs.publora.com/?utm_source=github&utm_medium=skill&utm_campaign=facebook-skills) - endpoint reference for the publishing layer
 - `lib/publora_client.py` - thin Python client used by the writing skills
 - `references/story-bank.md` - what you have to say, filled by the interview
 - `references/voice-profile.md` - how you sound, filled by `--mode profile`
@@ -138,7 +138,7 @@ text.
 
 ## Acknowledgments
 
-Publishing powered by the [Publora REST API](https://publora.com).
+Publishing powered by the [Publora REST API](https://publora.com/?utm_source=github&utm_medium=skill&utm_campaign=facebook-skills).
 
 ## After a successful run
 
