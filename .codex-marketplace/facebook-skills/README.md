@@ -154,7 +154,7 @@ Every skill shows you a draft first and waits for your OK. Nothing gets posted w
 
 Facebook Pages allow **text-only, photo, link, and video posts** (text-only is fully supported, unlike Instagram, TikTok, or YouTube). The single highest-engagement move is the **short post**: posts under 80 characters get a reported ~66% more engagement. So these skills lead with short, punchy lines and only reach for a longer story post when the material earns it.
 
-Posting to a Page on the native Facebook Graph API means setting up a Meta Developer app, handling OAuth, managing 59-day page tokens, and tracking Graph API versioning. This bundle hands all of that to [Publora](https://publora.com): one `create-post` call publishes to your Page, and you can post to several Pages at once.
+Posting to a Page on the native Facebook Graph API means setting up a Meta Developer app, handling OAuth, managing 59-day page tokens, and tracking Graph API versioning. This bundle hands all of that to [Publora](https://publora.com/?utm_source=github&utm_medium=readme&utm_campaign=facebook-skills): one `create-post` call publishes to your Page, and you can post to several Pages at once.
 
 ## Optional: auto-post with Publora
 
@@ -162,13 +162,13 @@ By default, the skills draft content for you to copy-paste into your Facebook Pa
 
 ### What is Publora?
 
-[Publora](https://publora.com) is a publishing API that turns one `create-post` call into a Facebook Page post (and can cross-post the same content to LinkedIn, Instagram, X, Threads, and more), without you touching the Facebook Graph API.
+[Publora](https://publora.com/?utm_source=github&utm_medium=readme&utm_campaign=facebook-skills) is a publishing API that turns one `create-post` call into a Facebook Page post (and can cross-post the same content to LinkedIn, Instagram, X, Threads, and more), without you touching the Facebook Graph API.
 
 Publora also ships [official MCP skills](https://github.com/publora/skills) (`npx skills add publora/skills`): one skill per platform, covering the publish side only. This bundle is the layer above them, adding the reading, the writing craft and the approval flow.
 
 ### Setup (2 minutes)
 
-**Step 1.** Sign up at https://app.publora.com/signup (free)
+**Step 1.** Sign up at https://app.publora.com/signup?utm_source=github&utm_medium=readme&utm_campaign=facebook-skills (free)
 
 **Step 2.** Connect your Page: click **Channels** in the left sidebar, then **Add Channel**, pick **Facebook**, and authorize the **Page** (not a personal profile).
 
@@ -333,7 +333,7 @@ Publora's comment and reaction endpoints are LinkedIn-only, and `create-post` on
 
 ## References
 
-- [Publora API docs](https://docs.publora.com) - endpoint reference for the publishing layer
+- [Publora API docs](https://docs.publora.com/?utm_source=github&utm_medium=readme&utm_campaign=facebook-skills) - endpoint reference for the publishing layer
 - [Meta for Developers: Pages API](https://developers.facebook.com/docs/pages-api/) - the underlying Graph layer Publora wraps
 
 ## Who builds this
@@ -346,7 +346,7 @@ This repo is the thin top layer of that stack, open-sourced. The engine undernea
 
 ## License
 
-MIT. Powered by [Publora](https://publora.com).
+MIT. Powered by [Publora](https://publora.com/?utm_source=github&utm_medium=readme&utm_campaign=facebook-skills).
 
 ## Related open-source skill bundles
 
